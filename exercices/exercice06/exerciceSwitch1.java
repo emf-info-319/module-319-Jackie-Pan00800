@@ -19,7 +19,7 @@ public class exerciceSwitch1 {
             System.out.println("Très bien");
         }
         
-        System.out.println("\nRésultat avec switch :");
+        System.out.println("Résultat avec switch :");
         switch (noteDuModule) {
             case 1:
                 System.out.println("Travail non rendu");
