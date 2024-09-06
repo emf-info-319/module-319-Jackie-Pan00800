@@ -2,7 +2,7 @@ package exercices.exercice05;
 
 public class exercice05température {
     public static void main(String[] args) {
-        int température = 26;
+        int température =4;
         if (température<0);{
             if (température < -10){
                 System.out.println("il fait très froid");
