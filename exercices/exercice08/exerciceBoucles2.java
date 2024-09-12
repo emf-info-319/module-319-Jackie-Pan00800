@@ -5,8 +5,8 @@ public class exerciceBoucles2 {
         int nbr=0;
         boolean uneCondition=true;
         while (uneCondition=true){
-            System.out.println(nbr+=1);
-            if (nbr==5){
+            System.out.println(nbr++);
+            if (nbr>5){
                 uneCondition=false;
                 if (uneCondition=false);{
                     break;

@@ -1,4 +1,4 @@
-package exercices.exercice05;
+package exercice05;
 
 public class exercice05multiplication {
     public static void main(String[] args) {
