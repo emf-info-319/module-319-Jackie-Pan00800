@@ -8,6 +8,7 @@ public class exerciceBoucles2 {
             System.out.println(nbr++);
             if (nbr>5){
                 uneCondition=false;
+                System.out.println(uneCondition);
                 if (uneCondition=false);{
                     break;
                 }
