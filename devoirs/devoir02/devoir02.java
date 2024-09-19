@@ -9,26 +9,22 @@ public class devoir02 {
     public static void main(String[] args) {
         int reservoirA = 0;
         int reservoirB = 0;
-        Random random = new Random();
-        int remplissage = random.nextInt(CAPACITE_RESERVOIR_A + CAPACITE_RESERVOIR_B + 1);
+        Random remplissage;
+        remplissage = (int) ( Math.random() * (CAPACITE_RESERVOIR_A + CAPACITE_RESERVOIR_B - 0 + 1))+0;
 
-        System.out.println("Nombre de litres à remplir : " + remplissage);
+        System.out.println("il y a "+remplissage+" litres à remplir.");
 
-        while (reservoirA + reservoirB < remplissage) {
-            if (reservoirA != CAPACITE_RESERVOIR_A) {
+        while (remplissage!=0) {
+            if (reservoirA < CAPACITE_RESERVOIR_A) {
                 reservoirA++;
-                System.out.println("Réservoir A : " + reservoirA + " litre(s), Réservoir B : " + reservoirB + " litre(s)");
-            } else if (reservoirB != CAPACITE_RESERVOIR_B) {
-                // Remplir le réservoir B une fois que le réservoir A est plein
+                System.out.println("remplissage du réservoir A...");
+            } else {
                 reservoirB++;
-                System.out.println("Réservoir A : " + reservoirA + " litre(s), Réservoir B : " + reservoirB + " litre(s)");
+                System.out.println("remplissage du réservoir B...");
             }
-        }
-
-        // Affichage final
-        System.out.println("Remplissage terminé !");
-        System.out.println("Réservoir A : " + reservoirA + " litre(s)");
-        System.out.println("Réservoir B : " + reservoirB + " litre(s)");
+        remplissage--;
+        System.out.println("le réservor A: "+ reservoirA + ", le réservoir B: "+ reservoirB);
     }
-    
+    System.out.println("remplissage terminé!");
+    }
 }
