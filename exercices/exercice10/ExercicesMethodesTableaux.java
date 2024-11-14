@@ -39,7 +39,8 @@ public class ExercicesMethodesTableaux {
     }
       // 1.
     public static int[] creerTableau(int taille) {
-        return new int[taille];
+        int[] tab=new int[taille];
+        return tab;
     }
 
     // 2.
@@ -148,5 +149,3 @@ public class ExercicesMethodesTableaux {
         return -1;
     }
     }
-
-
