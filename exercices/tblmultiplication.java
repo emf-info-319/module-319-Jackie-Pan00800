@@ -6,7 +6,7 @@ public class tblmultiplication {
         System.out.println(nombreAleatoire);
         int nombreAleatoire2=choisirUnNombre(MIN, MAX);
         System.out.println(nombreAleatoire2);
-        int tableau=construireTableMultiplication(nombreAleatoire, nombreAleatoire2);
+        int[] tableau=construireTableMultiplication(nombreAleatoire, nombreAleatoire2);
     }
     public static int choisirUnNombre(int min, int max){
         int randomAnswer=min +(int) ( Math.random() * (min|max-min));
@@ -26,7 +26,7 @@ public class tblmultiplication {
 
             }
         }
-        return tab;
+        return 
     }
     
 }

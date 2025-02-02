@@ -18,7 +18,7 @@ public class codageround {
     }
     public static int genereNombre(int max, int min){
         int genereNbre = (int) ( Math.random() * (min|max));
-        return genereNbre;
+        return genereNbr
     }
 
     

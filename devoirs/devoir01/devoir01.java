@@ -14,6 +14,5 @@ public class devoir01 {
         }else{
             System.out.println("Je suis mineur");
         }
-
     }
 }

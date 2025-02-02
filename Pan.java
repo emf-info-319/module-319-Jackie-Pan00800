@@ -23,7 +23,7 @@ public class Pan {
                 System.out.println("insuffisant");
                 break;
             }
-            totalNote=totalNote+notesObtenues[i];
+            totalNote=totalNote+notesObtenues[i]
         }
         moyenne=totalNote/NBRE_NOTES;
         System.out.println(moyenne);
